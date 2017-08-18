@@ -11,10 +11,10 @@ class CalculatorTest(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def test_sum(self):
+    def test_add(self):
         arg1 = 5
         arg2 = 3
-        self.assertEqual(Calculator.sum(arg1,arg2),arg1+arg2)
+        self.assertEqual(Calculator.add(arg1,arg2),arg1+arg2)
 
     def test_sub(self):
         arg1 = 5
@@ -29,7 +29,7 @@ class CalculatorTest(unittest.TestCase):
     def test_div(self):
         arg1 = 5
         arg2 = 3
-        self.assertEqual(Calculator.div(arg1,arg2),arg1+arg2)
+        self.assertEqual(Calculator.div(arg1,arg2),arg1/arg2)
 
     def test_sqrt(self):
         arg1 = 25
