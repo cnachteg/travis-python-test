@@ -1,7 +1,6 @@
 # coding: utf-8
 # Copied from the github https://github.com/tctianchi/pyvenn
 
-# Done BY CHARLOTTE
 
 from itertools import chain
 from collections import Iterable
